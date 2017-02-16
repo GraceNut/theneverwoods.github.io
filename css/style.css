@@ -121,7 +121,7 @@ nav ul li a {
 	-o-transition:all .2s linear 0s;
 	font-size:18px;
 }
-.page .active, .page nav ul li a:hover {
+.page .active, .page nav ul li a:hover, .work-page .active, .work-page nav ul li a:hover {
     border-bottom: 2px solid #fff;
 }
 
@@ -137,7 +137,7 @@ nav ul li a:hover {
 }
 .hero {
 	position: relative;
-	padding: 80px 20px 120px 15px;
+	padding: 100px 20px 140px 15px;
     overflow: hidden;
 }
 .hero h1 img {
@@ -180,7 +180,7 @@ nav ul li a:hover {
 .project {
 	position: relative;
 	overflow: hidden;
-	min-height: 650px;
+	min-height: 675px;
     text-align: center;
     transition: background-color 0.5s ease;
 }
@@ -273,12 +273,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8f6b', end
 	width: 700px;
 	
 }
+.morgan.project {
+	min-height:750px;
+}
 .morgan:hover  .project-image img {
 	width:715px;
 
 }
 .mycare.project {
 	background:#039ce8;
+	
 }
 .mycare.project:hover {
 	background:#008dd3;
@@ -445,6 +449,10 @@ footer {
     left: 0;
     margin:auto;
 }
+body.work-page header {
+	height:0;
+	z-index: 999;
+}
 body.page header {
 	height:0;
 	z-index: 999;
@@ -490,7 +498,7 @@ body.page header {
 	bottom: -100px;
     position: relative;
 }
-.morgan-page header .hire, .morgan-page header nav a,  .strange-page header .hire, .mycare-page header .hire,  .ryan-page header .hire, .ryan-page header nav a, .tx-beard-page header .hire, .tx-beard-page header nav a {
+.morgan-page header .hire, .work-page header .hire, .work-page header nav a, .morgan-page header nav a,  .strange-page header .hire, .mycare-page header .hire,  .ryan-page header .hire, .ryan-page header nav a, .tx-beard-page header .hire, .tx-beard-page header nav a {
 	color:#fff;
 }
 .morgan-page .case-study > div {
