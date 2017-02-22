@@ -1487,10 +1487,11 @@ body.thanks-page h1 {
     float: none;
   }
   .morgan.project {
-    min-height: 400px;
+    height: 400px;
 }
 .project {
-    height: 500px;
+    min-height: 400px;
+    height:500px;
 }
 .caring-adult {
   height:400px;
