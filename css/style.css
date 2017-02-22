@@ -1488,6 +1488,7 @@ body.thanks-page h1 {
   }
   .morgan.project {
     height: 400px;
+    min-height: 400px;
 }
 .project {
     min-height: 400px;
