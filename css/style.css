@@ -1498,11 +1498,12 @@ body.thanks-page h1 {
 .homepage .hero h1 {
   position: inherit;
   margin: 50px 10px 60px 10px;
+  height:auto;
 }
 .homepage header {
   position: inherit;
 }
-.homepage .main, .homepage .main, .homepage .container {
+.homepage .main, .homepage .main, .homepage .container, .homepage .hero {
   height:auto;
 }
 
