@@ -81,6 +81,50 @@ img {
 	max-width: 100%;
 }
 
+.homepage .container {
+	height:100%;
+}
+
+body.homepage {
+	height: 100%;
+    padding: 0;
+    background-color: #000;
+}
+
+.homepage header {
+	position: absolute;
+    top: 0;
+}
+.homepage .main {
+	height: 100%;
+}
+.homepage .hero {
+	padding:0;
+	height:100%;
+}
+.homepage .hero h1 {
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 400px;
+    color: #fff;
+}
+.homepage nav ul li a {
+	color:#fff;
+}
+.what-we-do h2 {
+	color:#fff;
+	display: inline-block;
+	text-align:center;
+}
+.what-we-do {
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
 
 ul {
 	margin:0;
