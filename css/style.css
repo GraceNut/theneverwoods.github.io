@@ -99,6 +99,7 @@ body.homepage {
 .homepage header {
   position: absolute;
   top: 0;
+  z-index: 9999;
 }
 
 .homepage .main {
@@ -121,7 +122,7 @@ body.homepage {
   color: #fff;
 }
 
-.homepage nav ul li a {
+.homepage nav ul li a, .homepage .hire {
   color: #fff;
 }
 
@@ -129,12 +130,17 @@ body.homepage {
   color: #fff;
   display: inline-block;
   text-align: center;
+  padding: 5px 15px;
+  font-size:18px;
+  font-weight: normal;
 }
 
 .what-we-do {
   position: absolute;
   bottom: 0;
   width: 100%;
+  text-align:center;
+  padding-bottom:30px;
 }
 
 ul {
