@@ -1506,5 +1506,8 @@ body.thanks-page h1 {
 .homepage .main, .homepage .main, .homepage .container, .homepage .hero {
   height:auto;
 }
+.what-we-do {
+  position: inherit;
+}
 
 }
