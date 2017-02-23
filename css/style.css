@@ -1401,6 +1401,10 @@ body.thanks-page h1 {
     width: 550px;
   }
 
+ .caring-adult:hover .project-image img {
+  width: 565px;
+  }
+
   .mycare .project-image img {
     bottom: 0;
     top: -35px;
