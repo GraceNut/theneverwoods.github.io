@@ -458,11 +458,11 @@ nav ul li a:hover {
   bottom: 40px;
 }
 
-.caring-adult .arrow svg path, .caring-adult .arrow svg polygon, .strange .arrow svg path, .strange .arrow svg polygon, .tx-beard .arrow svg path, .tx-beard .arrow svg polygon {
+.tx-beard .arrow svg path, .tx-beard .arrow svg polygon {
   fill: #131b26;
 }
 
-.caring-adult a.project-name, .strange a.project-name, .tx-beard a.project-name {
+.tx-beard a.project-name {
   color: #131b26;
 }
 
@@ -472,8 +472,12 @@ nav ul li a:hover {
   bottom: 40px;
   width: 300px;
   text-align: left;
-  font-size: 18px;
+  font-size: 36px;
   color: #fff;
+  line-height: 1.4;
+}
+.mycare.project .project-name, .strange.project .project-name, .caring-adult.project .project-name {
+  width:200px;
 }
 
 .page h1 {
