@@ -864,7 +864,9 @@ body.page header {
 }
 
 body.thanks-page {
-  background: #efefef;
+  height:100%;
+  padding-bottom:0;
+
 }
 
 body.thanks-page h1 {
