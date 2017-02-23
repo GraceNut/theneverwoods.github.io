@@ -1699,7 +1699,7 @@ body.thanks-page h1 {
   }
 
   .caring-adult {
-    height: 400px;
+    height: 520px;
   }
 
   .homepage .hero h1 {
@@ -1718,5 +1718,9 @@ body.thanks-page h1 {
 
   .what-we-do {
     position: inherit;
+  }
+  .caring-adult img {
+    bottom: 0;
+    top: 0;
   }
 }
