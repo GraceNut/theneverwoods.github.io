@@ -1386,6 +1386,7 @@ body.thanks-page h1 {
 
 .contact-wrapper form textarea {
   height: 150px;
+  max-width: 80%;
 }
 
 .contact-wrapper input[type="submit"] {
