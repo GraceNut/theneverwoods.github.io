@@ -1410,6 +1410,10 @@ body.thanks-page h1 {
   display: inline-block;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 @media (max-width: 980px) {
   .sparkpay .cards-wrapper .card .card-inner .card-footer {
     height: 90px;
