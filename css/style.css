@@ -1401,6 +1401,7 @@ body.thanks-page h1 {
 .expectations-line p {
   margin: 0;
   font-size: 14px;
+  padding: 0 15px;
 }
 
 .expectations-line p a {
