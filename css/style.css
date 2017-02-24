@@ -1453,6 +1453,18 @@ body.thanks-page h1 {
   }
 }
 
+@media (max-width: 550px) {
+  .sparkpay.page h1 {
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .sparkpay .page-sub-p {
+    padding: 0 15px;
+  }
+}
+
+
 @media screen and (max-width: 1024px) {
   .caring-adult img {
     width: 550px;
