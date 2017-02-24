@@ -1333,6 +1333,7 @@ body.thanks-page h1 {
 
 .testimonials-wrapper .testimonial.left p {
   text-align: left;
+  margin-top:5px;
 }
 
 .testimonials-wrapper .testimonial.right p {
