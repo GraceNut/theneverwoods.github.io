@@ -123,22 +123,26 @@
           <div class="testimonial right">
             <img src="/images/ryan-testimonial.png" alt="Ryan Johnson" />
             <p>We believe in purposeful design that is built on a strategy to convert customers. We’ll work with you from start to finish to build an online presence that works for your business.</p>
-            <p>- Ryan Johnson, <a href="http://ryanjohnsonrecording.com">ryanjohnsonrecording.com</a></p>
+            <p>- Ryan Johnson, <a href="http://ryanlenjohnson.com/">ryanlenjohnson.com</a></p>
           </div>
         </div>
 
-        <div class="contact-wrapper">
+        <div class="contact-wrapper" id="contact">
           <h2>Get In Touch</h2>
 
-          <form>
+          <form action="https://formspree.io/team@theneverwoods.com" method="post">
             <label for="Name">Your Name</label>
             <input type="text" name="Name" id="Name" />
 
             <label for="Email">Your Email</label>
-            <input type="email" name="Email" id="Email" />
+            <input type="email" name="_replyto" id="Email" />
 
             <label for="Description">Describe Project</label>
             <textarea name="Description" id="Description"></textarea>
+
+            <input type="hidden" name="_next" value="http://theneverwoods.com/thanks.html" />
+            <input type="hidden" name="_subject" value="[The Neverwoods] SparkPay form submission" />
+            <input type="hidden" name="SelectedPlan" value="" />
 
             <input type="submit" value="Send" />
           </form>
@@ -154,6 +158,23 @@
     </footer>
   
     <script>
+      $(function() {
+        $('.card .card-inner').on('click', function(e) {
+          $('input[name="SelectedPlan"]').attr('value', $(this).attr('data-plan'));
+
+          $('textarea[name="Description"]').val({
+            'Ecommerce Website Build': 'I\'m interested in an Ecommerce website design/build',
+            'Ecommerce Hourly': 'I\'m interested in hourly implementation',
+            'Ecommerce Retainer': 'I\'m interested in a monthly retainer'
+          }[$(this).attr('data-plan')]);
+
+          $('html,body').animate({
+            scrollTop: $('#contact').offset().top
+          }, 1000);
+        });
+      });
+
+
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
