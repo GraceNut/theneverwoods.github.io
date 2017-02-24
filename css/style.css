@@ -196,7 +196,7 @@ nav ul li a {
   color: #fff;
 }
 
-.active, .contact-page.page .active, .project-form-page.page nav ul li a:hover, .info-page.page .active, .thanks-page.page .active, .thanks-page.page nav ul li a:hover, .expect-page.page .active, .expect-page.page nav ul li a:hover, .contact-page.page nav ul li a:hover, .info-page.page nav ul li a:hover, .ryan-page.page nav ul li a:hover, .tx-beard-page.page nav ul li a:hover, .tx-beard-page.page .active {
+.active, .contact-page.page .active, .project-form-page.page nav ul li a:hover, .info-page.page .active, .thanks-page.page .active, .thanks-page.page nav ul li a:hover, .expect-page.page .active, .expect-page.page nav ul li a:hover, .contact-page.page nav ul li a:hover, .info-page.page nav ul li a:hover, .ryan-page.page nav ul li a:hover, .tx-beard-page.page nav ul li a:hover, .tx-beard-page.page .active, .sparkpay.page nav ul li a:hover, .sparkpay.page .active {
   border-bottom: 2px solid #ffc136;
 }
 
