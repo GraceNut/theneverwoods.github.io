@@ -1291,6 +1291,10 @@ body.thanks-page h1 {
   vertical-align: middle;
 }
 
+.expectations-line {
+  padding:30px 5px;
+}
+
 .testimonials-wrapper {
   margin: 70px auto;
   max-width: 725px;
@@ -1796,5 +1800,8 @@ body.thanks-page h1 {
   .caring-adult img {
     bottom: 0;
     top: 0;
+  }
+  .contact-wrapper {
+        padding: 45px 5px 60px;
   }
 }
