@@ -1297,7 +1297,7 @@ body.thanks-page h1 {
 
 .testimonials-wrapper {
   margin: 70px auto;
-  max-width: 850px;
+  max-width: 880px;
   position: relative;
   font-size:20px;
 }
@@ -1347,7 +1347,7 @@ body.thanks-page h1 {
   content: '';
   display: block;
   position: absolute;
-  height: 160%;
+  height: 170%;
   width: 200vw;
   max-width: 3200px;
   background: #FBBA08;
