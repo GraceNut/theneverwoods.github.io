@@ -890,6 +890,11 @@ body.thanks-page h1 {
   font-weight: normal;
 }
 
+.box-label a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
 .project-form-page h2 {
   text-align: left;
   display: inline-block;
