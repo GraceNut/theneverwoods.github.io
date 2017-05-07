@@ -1438,9 +1438,10 @@ body.thanks-page h1 {
 }
 .recent-work-spark > img:nth-of-type(2) {
     position: absolute;
-    top: 385px;
+    top: 362px;
     left: 710px;
     z-index: -1;
+    width: 550px;
 }
 
 @media (max-width: 980px) {
