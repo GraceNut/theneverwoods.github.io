@@ -1354,7 +1354,7 @@ body.thanks-page h1 {
   content: '';
   display: block;
   position: absolute;
-  height: 230%;
+  height: 225%;
   width: 200vw;
   max-width: 3200px;
   background: #FBBA08;
@@ -1429,6 +1429,7 @@ body.thanks-page h1 {
     z-index: 9999;
     position: relative;
     height: 600px;
+    margin-bottom: 100px;
 }
 .recent-work-spark > img:first-of-type {
     width: 900px;
@@ -1438,8 +1439,8 @@ body.thanks-page h1 {
 }
 .recent-work-spark > img:nth-of-type(2) {
     position: absolute;
-    top: 362px;
-    left: 710px;
+    top: 347px;
+    left: 737px;
     z-index: -1;
     width: 550px;
 }
