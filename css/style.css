@@ -1444,6 +1444,16 @@ body.thanks-page h1 {
     z-index: -1;
     width: 550px;
 }
+.recent-work-spark > div {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    text-align: left;
+}
+.recent-work-spark > h3 {
+  margin:0;
+}
 
 @media (max-width: 980px) {
   .sparkpay .cards-wrapper .card .card-inner .card-footer {
