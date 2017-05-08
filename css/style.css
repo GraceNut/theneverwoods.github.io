@@ -1409,6 +1409,9 @@ body.thanks-page h1 {
   background: #FBBA08;
   color: black;
 }
+.contact-wrapper input[type="submit"]:hover {
+  background: #eaa700;
+}
 
 .sparkpay .main {
   padding-bottom: 30px;
@@ -1472,6 +1475,9 @@ body.sparkpay .main > a {
   padding:10px 24px;
   display: inline-block;
   margin-bottom:75px;
+}
+body.sparkpay .main > a:hover {
+      background: #eaa700;
 }
 
 
