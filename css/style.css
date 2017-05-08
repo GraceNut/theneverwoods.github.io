@@ -1531,6 +1531,22 @@ body.sparkpay .main > a {
 
 }
 
+@media screen and (max-width: 1024px) {
+  .caring-adult img {
+    width: 550px;
+  }
+
+  .mycare .project-image img {
+    bottom: 0;
+    top: -35px;
+    width: 150px;
+  }
+
+  .about-us > div {
+    max-width: 33%;
+  }
+}
+
 @media (max-width: 980px) {
   .sparkpay .cards-wrapper .card .card-inner .card-footer {
     height: 90px;
@@ -1562,6 +1578,10 @@ body.sparkpay .main > a {
     top: inherit;
     display: block;
     margin: 0 auto;
+    padding:0 20px;
+}
+.recent-work-spark {
+    height: auto;
 }
 .recent-work-spark > img:nth-of-type(2) {
   display: none;
@@ -1580,21 +1600,7 @@ body.sparkpay .main > a {
 
 }
 
-@media screen and (max-width: 1024px) {
-  .caring-adult img {
-    width: 550px;
-  }
 
-  .mycare .project-image img {
-    bottom: 0;
-    top: -35px;
-    width: 150px;
-  }
-
-  .about-us > div {
-    max-width: 33%;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .hero h1 img {
@@ -1616,6 +1622,9 @@ body.sparkpay .main > a {
   .container header nav ul li a {
     color: #fff;
   }
+  .testimonials-wrapper:before {
+    height: 130%;
+}
 
   header nav {
     top: 85px;
