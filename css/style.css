@@ -1518,6 +1518,9 @@ body.sparkpay .main > a {
     text-align: center;
     margin-top: 15px;
 }
+.testimonials-wrapper:before {
+    height: 165%;
+}
 
 }
 
