@@ -1451,10 +1451,10 @@ body.thanks-page h1 {
     left: 850px;
     text-align: left;
 }
-.recent-work-spark > h3 {
+.recent-work-spark h3 {
   margin:0;
 }
-.recent-work-spark > a {
+.recent-work-spark  a {
     display: inline-block;
     padding: 12px 24px;
     color: #fff;
