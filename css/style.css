@@ -1452,19 +1452,20 @@ body.thanks-page h1 {
     text-align: left;
 }
 .recent-work-spark h3 {
-  margin:0;
+  margin:0 0 5px 0;
 }
 .recent-work-spark  a {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 20px;
     color: #fff;
     background: #000;
     text-align: center;
+    margin-top:15px;
 }
 body.sparkpay .main > a {
   color:#000;
   background: #FFC100;
-  padding:12px 24px;
+  padding:10px 20px;
   display: inline-block;
 }
 
