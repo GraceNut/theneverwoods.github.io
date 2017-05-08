@@ -1461,6 +1461,12 @@ body.thanks-page h1 {
     background: #000;
     text-align: center;
 }
+body.sparkpay .main > a {
+  color:#000;
+  background: #FFC100;
+  padding:12px 24px;
+  display: inline-block;
+}
 
 @media (max-width: 980px) {
   .sparkpay .cards-wrapper .card .card-inner .card-footer {
