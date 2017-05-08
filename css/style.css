@@ -491,6 +491,9 @@ nav ul li a:hover {
   margin: 15px auto 45px auto;
   max-width: 760px;
 }
+.sparkpay .page-sub-p {
+  margin: 15px auto 30px auto;
+}
 
 .faq {
   background: #111;
@@ -1456,7 +1459,7 @@ body.thanks-page h1 {
 }
 .recent-work-spark  a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 24px;
     color: #fff;
     background: #000;
     text-align: center;
@@ -1465,8 +1468,9 @@ body.thanks-page h1 {
 body.sparkpay .main > a {
   color:#000;
   background: #FFC100;
-  padding:10px 20px;
+  padding:10px 24px;
   display: inline-block;
+  margin-bottom:45px;
 }
 
 @media (max-width: 980px) {
