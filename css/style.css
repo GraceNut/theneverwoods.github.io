@@ -1456,6 +1456,7 @@ body.thanks-page h1 {
 }
 .recent-work-spark h3 {
   margin:0 0 5px 0;
+  font-size: 20px;
 }
 .recent-work-spark  a {
     display: inline-block;
@@ -1470,7 +1471,7 @@ body.sparkpay .main > a {
   background: #FFC100;
   padding:10px 24px;
   display: inline-block;
-  margin-bottom:45px;
+  margin-bottom:75px;
 }
 
 
