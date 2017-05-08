@@ -1499,6 +1499,26 @@ body.sparkpay .main > a {
   .about-us > div {
     max-width: 33%;
   }
+  .recent-work-spark > img:first-of-type {
+    width: 650px;
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    display: block;
+    margin: 0 auto;
+}
+.recent-work-spark > img:nth-of-type(2) {
+  display: none;
+}
+.recent-work-spark > div {
+    display: inline-block;
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    text-align: center;
+    margin-top: 15px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -1549,6 +1569,9 @@ body.sparkpay .main > a {
     left: 700px;
     text-align: left;
 }
+ .recent-work-spark {
+  height:520px;
+ }
 
 }
 
