@@ -1080,7 +1080,7 @@ body.thanks-page h1 {
   width: 27%;
   margin: 3%;
   float: left;
-  box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.12);
+  box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.02);
 }
 
 .case-study .mycare-mid > div:first-of-type {
