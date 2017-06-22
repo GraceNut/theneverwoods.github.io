@@ -6,6 +6,9 @@ url: "http://theneverwoods.com"
 twitter_username: theneverwoods
 github_username:  theneverwoods
 
+gems:
+  - jekyll-redirect-from
+
 exclude:
   - Gemfile
   - Gemfile.lock
