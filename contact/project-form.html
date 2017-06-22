@@ -1,0 +1,72 @@
+---
+layout: default
+bodyClass: project-form-page
+permalink: /contact/project
+redirect_from:
+  - /project-form.html
+---
+
+<h1>New Project Form</h1>
+<p class="page-sub-p">Thanks for considering us for your project. <br> <br>Please answer these questions to the best of your ability so we can determine how we can help. Want to know more about what to <a href="/about/what-to-expect">expect from us?</a></p>
+<div class="FormContainer">
+  <form action="https://formspree.io/team@theneverwoods.com" method="post">
+    <h2>Tell us about yourself.</h2>
+    <br>
+    <label for="Name">Your name</label><br>
+    <input type="text" name="Name" id="Name"><br>
+    <label for="CompanyName">Company name</label><br>
+    <input type="text" name="CompanyName" id="CompanyName"><br>
+    <label for="Email">Your e-mail</label><br>
+    <input type="text" name="_replyto" id="Email"><br>
+    <label for="FindUs">How did you find out about us?</label><br>
+    <input type="text" name="FindUs" id="FindUs"><br>
+
+    <label>How would you describe your company?</label><br>
+    <input type="radio" name="CompanyDescribe" id="fortune-500" value="Fortune 500"> <label for="fortune-500" class="box-label">Fortune 500</label><br>
+    <input type="radio" name="CompanyDescribe" id="Startup" value="Startup"> <label for="Startup" class="box-label">Startup</label><br>
+    <input type="radio" name="CompanyDescribe" id="Small Business" value="Small Business"> <label for="Small Business" class="box-label">Small Business</label><br>
+        <input type="radio" name="CompanyDescribe" id="e-commerce" value="ecommerce"> <label for="ecommerce" class="box-label">Ecommerce (check out our <a href="/services/sparkpay" target="_blank">Spark Pay Ecommerce Services</a>)</label><br>
+    <input type="radio" name="CompanyDescribe" id="Personal" value="Personal"> <label for="Personal" class="box-label">Personal</label><br>
+        <input type="radio" name="CompanyDescribe" id="Non-Profit" value="Non Profit"> <label for="Non-Profit" class="box-label">Non-Profit</label><br>
+    <input type="radio" name="CompanyDescribe" id="Other" value="Other" class="other"> <label for="Other" class="box-label">Other</label><br>
+
+    <h2>Tell us about your project.</h2>
+    <br>
+    
+
+    <label>What do you need help with?</label><br>
+    <input type="checkbox" name="IsItBrandStuff" id="IsItBrandStuff" value="Yes"> <label for="IsItBrandStuff" class="box-label">Brand Design (logo)</label><br>
+    <input type="checkbox" name="IsItAppStuff" id="IsItAppStuff" value="Yes"> <label for="IsItAppStuff" class="box-label">UI/UX - App Design</label><br>
+    <input type="checkbox" name="IsItWebStuff" id="IsItWebStuff" value="Yes"> <label for="IsItWebStuff" class="box-label">Web Design</label><br>
+    <input type="checkbox" name="IsItDevStuff" id="IsItDevStuff" value="Yes"> <label for="IsItDevStuff" class="box-label">Development</label><br>
+    <input type="checkbox" name="IsItIllustrationStuff" id="IsItIllustrationStuff" value="Yes"> <label for="IsItIllustrationStuff" class="box-label">Illustration</label><br>
+    <input type="checkbox" name="IsItSomethingElse" id="IsItSomethingElse" value="Yes"> <label for="IsItSomethingElse" class="box-label">Something else</label><br>
+
+    <label for="WhenStart">When do you want to get started?</label><br>
+    <input type="text" name="WhenStart" id="WhenStart"><br>
+
+    <label for="WhenLaunch">When do you want to launch?</label><br>
+    <input type="text" name="WhenLaunch" id="WhenLaunch"><br>
+
+    <label for="Budget">What is your budget? (We want to help you best plan and invest your money.)</label><br>
+    <input type="text" name="Budget" id="Budget"><br>
+
+    <label>Is this a redesign or something new?</label><br>
+    <input type="radio" name="RedesignNew" id="RedesignNew1" value="redesign"> <label for="RedesignNew1" class="box-label">Redesign</label><br>
+    <input type="radio" name="RedesignNew" id="RedesignNew2" value="new design"> <label for="RedesignNew2" class="box-label">New Design</label><br>
+
+    <label>If redesign, please link to any existing designs.</label><br>
+    <input type="text" name="ExistingDesignLink" id="ExistingDesignLink"><br>
+
+    <label>Are you looking for just design or design and code?</label><br>
+    <input type="radio" name="DesignCode" id="DesignCode1" value="Just Design"> <label for="DesignCode1" class="box-label">Just Design</label><br>
+    <input type="radio" name="DesignCode" id="DesignCode2" value="Design and code"> <label for="DesignCode2" class="box-label">Design and Code</label><br>
+
+    <label for="AboutProject">Please briefly give an overview of existing service/product/project.</label><br>
+    <textarea name="AboutProject" id="AboutProject"></textarea><br>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="http://theneverwoods.com//contact/thanks" />
+    <input type="hidden" name="_subject" value="[The Neverwoods] Project form submission" />
+    <input type="submit" value="submit">
+  </form>
+</div>

@@ -561,7 +561,7 @@ footer {
 
 body.work-page header {
   height: 0;
-  z-index: 99999;
+  z-index: 99999 !important;
 }
 
 body.page header {

@@ -9,3 +9,5 @@ github_username:  theneverwoods
 exclude:
   - Gemfile
   - Gemfile.lock
+  - CNAME
+  - .gitignore
