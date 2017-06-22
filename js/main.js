@@ -10,4 +10,6 @@ $(function() {
       scrollTop: $('#contact').offset().top
     }, 1000);
   });
+
+  $('header nav li a[href="' + window.location.pathname + '"]').addClass('active');
 });
