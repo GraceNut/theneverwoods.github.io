@@ -277,6 +277,9 @@
 @media (max-width: 768px) {
   .work-page {
     .project {
+      height: auto !important;
+      min-height: 375px !important;
+
       .project-name {
         font-size: 16px;
       }
