@@ -1,0 +1,84 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.homepage {
+  height: 100%;
+  padding: 0;
+
+  .container {
+    max-width: 100%;
+    height: 100%;
+    background-color: #000;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .main {
+    height: 100%;
+  }
+
+  .hero {
+    padding: 0;
+    height: 100%;
+    position: relative;
+    padding: 100px 20px 140px 15px;
+    overflow: hidden;
+
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      max-width: 925px;
+      font-size: 62px;
+      z-index: 1;
+      line-height: 1.6;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 400px;
+      color: #fff;
+
+      img {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+
+    }
+  }
+
+  nav ul li a, .hire {
+    color: #fff;
+  }
+
+  .what-we-do {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+
+    h2 {
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      padding: 5px 15px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+}
+

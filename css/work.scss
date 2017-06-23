@@ -1,0 +1,232 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.work-page {
+  header {
+    height: 0;
+    z-index: 99999 !important;
+  }
+
+  .project {
+    position: relative;
+    overflow: hidden;
+    min-height: 675px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      transition: background-color 0.5s ease;
+
+      img {
+        transition: 0;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        transition-timing-function: ease-out;
+      }
+    }
+
+    img {
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transition: 0;
+      transition-duration: .5s;
+      transition-timing-function: ease-in;
+      transition-timing-function: ease-out;
+    }
+
+    .project-link {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: rgba(0,0,0,0);
+      transition: 0;
+      transition-duration: .5s;
+      transition-timing-function: ease-in;
+      transition-timing-function: ease-out;
+      z-index: 9999;
+    }
+
+    .project-name {
+      margin-bottom: 12px;
+      position: absolute;
+      left: 40px;
+      bottom: 40px;
+      width: 300px;
+      text-align: left;
+      font-size: 32px;
+      color: #fff;
+      line-height: 1.4;
+    }
+
+    .arrow {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      right: 40px;
+      bottom: 40px;
+    }
+
+    &.tx-beard {
+      background-color: #f4f4f4;
+      background-image: url('/img/tx-beard-bg.png');
+      text-align: center;
+      background-size: 120%;
+      background-repeat: no-repeat;
+      background-position: top center;
+      height: 600px;
+
+      &:hover {
+        img {
+          width: 600px;
+        }
+      }
+
+      img {
+        width: 585px;
+      }
+
+      .project-link:hover {
+        background: rgba(0,0,0,.1);
+        transition: 0;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        transition-timing-function: ease-out;
+      }
+
+      .arrow svg path, .arrow svg polygon {
+        fill: #131b26;
+      }
+
+      a.project-name {
+        color: #131b26;
+      }
+    }
+
+    &.ryan {
+      background-color: #0a090c;
+      background-image: url(../img/ryan-bg.jpg);
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 600px;
+
+      &:hover .product-image img {
+        width: 665px;
+      }
+
+      .project-image img {
+        width: 650px;
+        bottom: -75px;
+      }
+
+      .project-link:hover {
+        background: rgba(0,0,0,.2);
+        transition: 0;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        transition-timing-function: ease-out;
+      }
+    }
+
+    &.morgan {
+      text-align: center;
+      background: rgb(255,143,107);
+      background: -moz-linear-gradient(-45deg, rgba(255,143,107,1) 0%, rgba(238,81,102,1) 100%);
+      background: -webkit-linear-gradient(-45deg, rgba(255,143,107,1) 0%,rgba(238,81,102,1) 100%);
+      background: linear-gradient(135deg, rgba(255,143,107,1) 0%,rgba(238,81,102,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8f6b', endColorstr='#ee5166',GradientType=1 );
+      min-height: 750px;
+
+      &:hover .project-image img {
+        width: 715px;
+      }
+
+      .project-image img {
+        width: 700px;
+      }
+    }
+
+    &.mycare {
+      background: #039ce8;
+
+      &:hover {
+        background: #008dd3;
+
+        .project-image img {
+          width: 180px;
+        }
+      }
+
+      .project-image img {
+        bottom: -75px;
+        width: 170px;
+      }
+
+      .project-name {
+        width: 180px;
+      }
+    }
+
+    &.caring-adult {
+      background-color: #19b3bf;
+      background-image: url(../img/dots.svg);
+      min-height: 600px;
+      text-align: center;
+      background-repeat: repeat;
+      background-position: center;
+
+      &:hover {
+        background-color: #19b3bf;
+
+        .project-image img {
+          width: 625px;
+        }
+      }
+
+      img {
+        width: 610px;
+        bottom: 0;
+        top: inherit;
+      }
+
+      .project-name {
+        width: 180px;
+      }
+    }
+
+
+    &.strange {
+      background: rgb(0,240,197);
+      background: -moz-linear-gradient(-45deg, rgba(0,240,197,1) 29%, rgba(0,209,201,1) 100%);
+      background: -webkit-linear-gradient(-45deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+      background: linear-gradient(135deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f0c5', endColorstr='#00d1c9',GradientType=1 );
+      padding: 130px 0;
+      text-align: center;
+
+      &:hover {
+        img {
+          width: 565px;
+        }
+      }
+
+      img {
+        width: 550px;
+      }
+
+      .project-name {
+        width: 180px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+html {
+  background-color: #efefef;
+  height: 100%;
+}
+
+body {
+  background-color: #ddd;
+  font-family: "sofia-pro",sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #131b26;
+  position: relative;
+  padding-bottom: 115px;
+  min-height: 100px;
+
+  &.contact-page, &.info-page {
+    min-height: 100%;
+  }
+}
+
+a {
+  color: #0b2633;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: #0b2633;
+    cursor: pointer !important;
+    transition: .4s;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.container {
+  width: 100%;
+  min-height: calc(100vh - 115px);
+  max-width: 1600px;
+  padding: 0;
+  position: relative;
+  background-color: #efefef;
+}
+
+.page h1 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.page-sub-p {
+  margin: 15px auto 45px auto;
+  max-width: 760px;
+}

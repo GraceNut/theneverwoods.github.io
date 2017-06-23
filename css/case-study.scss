@@ -1,0 +1,425 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.case-study-page {
+  .site-link a {
+    display: inline-block;
+    background: #ddd;
+    padding: 12px 30px;
+    margin: 25px;
+  }
+
+  .words {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .case-study {
+    z-index: 0;
+    position: relative;
+
+    & > div:first-of-type {
+      background: #efefef;
+      padding: 65px 30px;
+      position: relative;
+      z-index: -1;
+    }
+
+    & > img { 
+      z-index: 0;
+      bottom: -100px;
+      position: relative;
+    }
+
+    & > div > ul > li > img {
+      width: 40px;
+    }
+
+    & > div > ul > li {
+      display: inline-block;
+      margin: 15px;
+    }
+
+    & > div > ul, & > div > div {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  &.morgan-page {
+    .case-study {
+      background: #f97165;
+      padding: 75px 0 0;
+      text-align: center;
+      position: relative;
+      z-index: 0;
+
+      & > img {
+        width: 800px;
+        z-index: 0;
+        bottom: -100px;
+        position: relative;
+      }
+
+      & > div {
+        text-align: center;
+
+        &::nth-of-type(2) { 
+          img {
+            width: 1150px;
+
+            &:nth-of-type(2) {  
+              width: 100%;
+              margin-top: 65px;
+            }
+          }
+        }
+      }
+
+      .morgan-bottom {
+        padding: 1%;
+        background: #ddd;
+
+        img { 
+          padding-top: 1%;
+          padding-bottom: 2%;
+        }
+
+        div {
+          width: 50%;
+          padding: 1%;
+          float: left;          
+        }
+      }
+    }
+
+    .morgan-mid {
+      background: #efefef;
+    }
+  }
+
+  &.ryan-page {
+    .case-study {
+      background-color: #0a090c;
+      background-image: url(../img/ryan-bg.jpg);
+      padding: 75px 0px 0px 0px;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      & > div > div {
+        max-width: 100%;
+
+        &.words {
+          max-width: 800px;
+          padding: 0 15px;
+          margin: 0 auto;
+        }
+      }
+
+      & > div:first-of-type {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      div.ryan-dark > img {
+        width: 400px;
+        padding: 20px 50px;
+      }
+
+      & > img {
+        width: 700px;
+        bottom: -90px;
+      }
+    }
+
+    .words p:first-of-type {
+      text-align: left;
+      border-left: 3px solid #ccc;
+      padding-left: 30px;
+      margin: 0;
+    }
+
+    .ryan-logo {
+      background: #db9b2c;
+
+      img {
+        width: 800px;
+      }
+    }
+
+    .hire svg line, .hire svg polyline, .hire svg path {
+      stroke: #f2a700;
+    }
+
+    .ryan-dark {
+      padding: 100px 0;
+      background: #000;
+    }
+
+    .ryan-site {
+      padding: 100px 15px;
+      background: #efefef;
+    }
+
+    .ryan-site img {
+      width: 1000px;
+      box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.4);
+    }
+
+    .ryan-site img:nth-of-type(2) {
+      margin-top: 100px;
+    }
+
+    header .active {
+      border-bottom: 2px solid #f2a700;
+    }
+  }
+
+  &.tx-beard-page {
+    .case-study {
+      background-color: #f4f4f4;
+      background-image: url(/img/tx-beard-bg.png);
+      text-align: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top center;
+      position: relative;
+      padding-top: 50px;
+
+      & > div:first-of-type {
+        background: #f4f4f4;
+        padding-bottom: 30px;
+      }
+    }
+
+    .hire svg line, .hire svg polyline, .hire svg path, .hire svg circle {
+      stroke: #ffc136;
+    }
+
+    .tx-beard-tame {
+      max-width: 100%;
+
+      img {
+        float: left;
+        width: 33.33%;
+      }
+    }
+
+    .tx-beard-prod {
+      margin: 0 auto;
+      padding: 0 20px 50px 20px;
+
+      img {
+        float: left;
+        width: 25%;
+        padding: 15px;
+      }
+    }
+
+    .tx-beard-site {
+      background: #e1e1e1;
+
+      div:nth-of-type(1), div:nth-of-type(2) {
+        float: left;
+        width: 50%;
+        padding: 2%;
+        max-width: 50%;
+      }
+
+      div:nth-of-type(1) {
+        padding-right: 1%;
+      }
+
+      div:nth-of-type(2) {
+        padding-left: 1%;
+      }
+
+      img {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &.one-caring-page {
+    .case-study {
+      background-color: #19b3bf;
+      text-align: center;
+      background-image: url(../img/dots.svg);
+      background-repeat: repeat;
+      background-position: center;
+      background-size: 500px;
+
+      & > img {
+        width: 550px;
+        bottom: 0;
+        padding-top: 120px;
+      }
+
+      & > div:first-of-type {
+        padding-top: 10px;
+        background: #fff;
+        padding-left: 0; 
+        padding-right: 0; 
+      }
+
+      & > .one-caring-site {
+        div:nth-of-type(1), div:nth-of-type(2) {
+          width: 50%;
+          padding: 2%;
+          float: left;
+        }
+
+        div:nth-of-type(1) {
+          padding-right: 1%;
+        }
+
+        div:nth-of-type(2) {
+          padding-left: 1%;
+        }
+
+        img {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .hire svg line, .hire svg polyline, .hire svg path {
+      stroke: #fff;
+    }
+
+    .one-caring-site {
+      background: #cedbdd;
+    }
+  }
+
+  &.mycare-page {
+    .case-study {
+      background: #f4f4f4;
+      text-align: center;
+      position: relative;
+      z-index: 0;
+
+      & > div:first-of-type {
+        background: #039ce8;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+
+        img {
+          width: 200px;
+          z-index: 0;
+          padding-top: 100px;
+          padding-bottom: 30px;
+          position: initial;
+          bottom: auto;
+        }
+      }
+    }
+
+    .mycare-bottom {
+      background: #f4f4f4;
+
+      & > div > img {
+        width: 27%;
+        margin: 3%;
+        float: left;
+        box-shadow: 0px 0px 80px 0px rgba(0,0,0, 0.02);
+      }
+    }
+
+    .mycare-top {
+      padding: 10px 0 45px 0;
+    }
+
+    .mycare-mid > div:first-of-type {
+      background: #fff;
+      text-align: center;
+      width: 100%;
+      max-width: 100%;
+      padding: 150px 10px;
+
+      img {
+        display: inline-block;
+        width: 180px;
+        max-width: 80%;
+      }
+    }
+
+    .mycare-mid > div:nth-of-type(2) {
+      background: #039ce8;
+      text-align: center;
+      width: 100%;
+      max-width: 100%;
+      padding: 150px 10px;
+
+      img {
+        display: inline-block;
+        width: 1050px;
+        max-width: 100%;
+      }
+    }
+
+    .mycare-bottom > div {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+  &.strange-page {
+    .case-study {
+      background: rgb(0,240,197);
+      background: -moz-linear-gradient(-45deg, rgba(0,240,197,1) 29%, rgba(0,209,201,1) 100%);
+      background: -webkit-linear-gradient(-45deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+      background: linear-gradient(135deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f0c5', endColorstr='#00d1c9',GradientType=1 );
+      text-align: center;
+      position: relative;
+      z-index: 0;
+
+      & > div:first-of-type {
+        background: rgb(0,240,197);
+        background: -moz-linear-gradient(-45deg, rgba(0,240,197,1) 29%, rgba(0,209,201,1) 100%);
+        background: -webkit-linear-gradient(-45deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+        background: linear-gradient(135deg, rgba(0,240,197,1) 29%,rgba(0,209,201,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f0c5', endColorstr='#00d1c9',GradientType=1 );
+        padding: 75px 0 0;
+
+        img {
+          width: 600px;
+          z-index: 0;
+          padding-top: 60px;
+          padding-bottom: 40px;
+          position: initial;
+          bottom: auto;
+        }
+      }
+
+      & > div:nth-of-type(2) {
+        background: #efefef;
+        padding: 5px 30px;
+        position: relative;
+        z-index: -1;
+      }
+    }
+
+    .strange-bottom {
+      padding: 8% 15px;
+      background: #ddd;
+
+      img {
+        width: 1200px;
+        box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.15);
+
+        &:nth-of-type(5), &:nth-of-type(4), &:nth-of-type(3), &:nth-of-type(2) {
+          margin-top: 8%;
+        }
+      }
+    }
+  }
+}

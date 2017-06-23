@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  background: #fff;
+  height: 115px;
+  max-width: 1600px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    height: 20px;
+    margin: auto;
+  }
+}

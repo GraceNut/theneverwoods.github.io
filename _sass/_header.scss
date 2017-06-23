@@ -1,0 +1,100 @@
+header {
+  height: 100px;
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1000000;
+
+  .logo {
+    height: 100px;
+    width: 100px;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #000;
+    text-align: center;
+
+    img {
+      max-width: 35px;
+      padding-top: 34px;
+    }
+  }
+
+  nav {
+    text-align: center;
+    width: 400px;
+    overflow: hidden;
+    background: none;
+    height: 55px;
+    top: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    ul {
+      text-align: center;
+
+      li {
+        display: inline-block;
+
+        a {
+          color: #0b2633;
+          display: inline-block;
+          margin: 0 15px 0 15px;
+          text-decoration: none;
+          transition-property: all .2s linear 0s;
+          -moz-transition: all .2s linear 0s;
+          -webkit-transition: all .2s linear 0s;
+          -o-transition: all .2s linear 0s;
+          font-size: 18px;
+
+          &:hover, &:focus, &.active {
+            border-bottom: 2px solid #ffc136;
+            transition: none;
+          }
+        }
+      }
+    }
+  }
+
+  .hire {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 140px;
+    text-align: right;
+
+    svg {
+      display: inline-block;
+      width: 35px;
+      margin-right: 5px;
+      top: 12px;
+      position: relative;
+    }
+  }
+}
+
+body {
+  &.work-page, &.case-study-page {
+    nav ul li a {
+      color: white;
+
+      &:hover, &:focus, &.active {
+        border-bottom-color: white;
+      }
+    }
+
+    .hire {
+      color: white;
+    }
+  }
+
+  &.page {
+    header {
+      height: 0;
+      z-index: 999;
+    }
+  }
+}
