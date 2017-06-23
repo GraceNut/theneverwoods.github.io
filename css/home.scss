@@ -82,3 +82,65 @@
   }
 }
 
+@media (max-width: 768px) {
+  .homepage {
+    .hero {
+      padding: 115px 20px 125px 15px;
+
+      h1 {
+        font-size: 52px;
+
+        img {
+          top: -15px;
+          left: 0;
+          right: 0;
+          margin: auto;
+          min-width: 800px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage {
+    .hero {
+      h1 {
+        img {
+          top: -15px;
+          left: -15%;
+          right: 0;
+          margin: auto;
+          min-width: 800px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage {
+    header {
+      position: inherit;
+    }
+
+    .hero {
+      h1 {
+        font-size: 38px;
+        position: inherit;
+        margin: 50px 10px 60px 10px;
+        height: auto;
+
+        img {
+          top: -10px;
+          left: -50%;
+          min-width: 700px;
+        }
+      }
+    }
+
+    .main, .container, .hero {
+      height: auto;
+    }
+  }
+}

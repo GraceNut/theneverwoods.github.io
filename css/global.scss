@@ -459,8 +459,11 @@ body.sparkpay .main > a:hover {
       background: #eaa700;
 }
 
-
-
+@media screen and (max-width: 1024px) {
+  .about-us > div {
+    max-width: 33%;
+  }
+}
 
 @media (max-width: 768px) {
   .sparkpay .cards-wrapper .card {
@@ -516,23 +519,10 @@ body.sparkpay .main > a:hover {
 
 }
 
-@media screen and (max-width: 1024px) {
-  .caring-adult img {
-    width: 550px;
-  }
 
-  .mycare .project-image img {
-    bottom: 0;
-    top: -35px;
-    width: 150px;
-  }
-
-  .about-us > div {
-    max-width: 33%;
-  }
-}
 
 @media (max-width: 980px) {
+
   .sparkpay .cards-wrapper .card .card-inner .card-footer {
     height: 90px;
     line-height: 60px;
@@ -541,16 +531,6 @@ body.sparkpay .main > a:hover {
   .sparkpay .cards-wrapper .card .card-inner {
     padding-bottom: 90px;
     min-height: 553px;
-  }
-
-  .caring-adult:hover .project-image img {
-    width: 565px;
-  }
-
-  .mycare .project-image img {
-    bottom: 0;
-    top: -35px;
-    width: 150px;
   }
 
   .about-us > div {
@@ -582,199 +562,28 @@ body.sparkpay .main > a:hover {
 .testimonials-wrapper:before {
     height: 165%;
 }
-
 }
 
 
 
-@media screen and (max-width: 768px) {
-  .hero h1 img {
-    top: -15px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    min-width: 800px;
+@media (max-width: 768px) {
+  .about-us > div, .about-us > div:first-of-type {
+    max-width: 100%;
+    float: none;
   }
 
-  .hero h1 {
-    font-size: 52px;
+  .testimonials-wrapper .testimonial.right img, .testimonials-wrapper .testimonial.left img {
+    float: none;
+    margin:0;
   }
 
-  .logo {
-    width: 100%;
-  }
-
-  .container header nav ul li a {
-    color: #fff;
-  }
   .testimonials-wrapper:before {
     height: 130%;
 }
 
-  header nav {
-    top: 85px;
-  }
-
-  body .container header {
-    height: 150px;
-    background: #0a090c;
-  }
-
-  .hire {
-    display: none;
-  }
-
-  .hero {
-    padding: 115px 20px 125px 15px;
-  }
-
-  nav {
-    width: 100%;
-  }
-
-  .morgan-page .case-study > div:nth-of-type(2) > img {
-    width: 100%;
-    float: none;
-  }
-
-  .morgan-page .case-study > div:first-of-type > img {
-    min-width: 140%;
-    margin-top: 45px;
-    margin-left: -20%;
-  }
-
-  .morgan-page header .hire, .morgan-page header nav a {
-    color: #131b26;
-  }
-
-  .morgan-page .case-study {
-    padding-top: 0;
-  }
-
-  .morgan-page .case-study h1 {
-    margin-top: 0;
-  }
-
-  .morgan-page .case-study > img {
-    bottom: -60px;
-  }
-
-  .morgan-page .case-study > div:first-of-type {
-    padding: 65px 5px;
-    overflow: hidden;
-  }
-
-  .morgan-page .case-study > div:nth-of-type(2) > img {
-    padding: 3%;
-  }
-
-  .project-name {
-    font-size: 16px;
-  }
 
   .contact-page .main, .thanks-page, .project-form-page .main, .sparkpay .main {
     padding-top: 50px;
-  }
-
-  .homepage .project {
-    min-height: 400px;
-  }
-
-  .homepage .project.ryan {
-    height: 400px;
-  }
-
-  .ryan .project-image img {
-    bottom: 0;
-  }
-
-  .homepage .project.caring-adult {
-    min-height: 470px;
-  }
-
-  .homepage .project.caring-adult img {
-    top: -100px;
-    bottom: 0;
-  }
-
-  .tx-beard {
-    background-size: inherit;
-    height: 450px;
-  }
-
-  .tx-beard img {
-    top: -40px;
-  }
-
-  .strange img {
-    top: -30px;
-  }
-
-  .ryan-page .case-study > img {
-    bottom: -50px;
-  }
-
-  .ryan-page .case-study {
-    padding-top: 0;
-  }
-
-  .ryan-dark, .ryan-site {
-    padding: 50px 20px;
-  }
-
-  .ryan-site img:nth-of-type(2) {
-    margin-top: 20px;
-  }
-
-  .tx-beard-page .case-study {
-    background-size: 220%;
-  }
-
-  .tx-beard-page .case-study > img {
-    bottom: -20px;
-  }
-
-  .case-study > div:first-of-type {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .case-study > div:first-of-type {
-    padding-top: 30px;
-  }
-
-  .tx-beard-prod img {
-    width: 50%;
-  }
-
-  .tx-beard-tame img {
-    width: 100%;
-    float: none;
-  }
-
-  .case-study > div.tx-beard-site div:nth-of-type(1), .case-study > div.tx-beard-site div:nth-of-type(2) {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    padding: 3%;
-  }
-
-  .tx-beard-site img {
-    margin-bottom: 15px;
-  }
-
-  .ryan-tattoo {
-    overflow: hidden;
-  }
-
-  .ryan-tattoo img {
-    max-width: 200%;
-    position: relative;
-    left: -50%;
-  }
-
-  .strange-page .case-study > div:first-of-type img {
-    padding-top: 0;
   }
 
   .contact-page .main, .info-page .main, .thanks-page .main {
@@ -785,13 +594,6 @@ body.sparkpay .main > a:hover {
     padding-top: 20px;
   }
 
-  .faq {
-    margin-bottom: 0;
-    margin-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .project-form-page label.box-label {
     width: 250px;
   }
@@ -800,65 +602,9 @@ body.sparkpay .main > a:hover {
     border-bottom: 2px solid #ffc136 !important;
   }
 
-  .one-caring-page .case-study > img {
-    padding-top: 50px;
-  }
-
-  .case-study > div.one-caring-site div:nth-of-type(1), .case-study > div.one-caring-site div:nth-of-type(2) {
-    float: none;
-    width: 100%;
-    padding-left: 6%;
-    padding-right: 6%;
-  }
-
-  .case-study > div.one-caring-site div:nth-of-type(1) {
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 30px;
-  }
-
-  .mycare-bottom > div > img {
-    width: 100%;
-    padding: 6% 6% 0 6%;
-    float: none;
-    margin: 0;
-  }
-
-  .about-us > div, .about-us > div:first-of-type {
-    max-width: 100%;
-    float: none;
-  }
-
-  .morgan-page .case-study .morgan-bottom div {
-    width: 100%;
-  }
-  .testimonials-wrapper .testimonial.right img, .testimonials-wrapper .testimonial.left img {
-    float: none;
-    margin:0;
-  }
 }
 
-@media screen and (max-width: 600px) {
-  .hero h1 img {
-    top: -15px;
-    left: -15%;
-    right: 0;
-    margin: auto;
-    min-width: 800px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero h1 img {
-    top: -10px;
-    left: -50%;
-    min-width: 700px;
-  }
-
-  .hero h1 {
-    font-size: 38px;
-  }
-
+@media (max-width: 480px) {
   .services h2 {
     display: inline-block;
     font-weight: 500;
@@ -882,20 +628,6 @@ body.sparkpay .main > a:hover {
 
   .caring-adult {
     height: 520px;
-  }
-
-  .homepage .hero h1 {
-    position: inherit;
-    margin: 50px 10px 60px 10px;
-    height: auto;
-  }
-
-  .homepage header {
-    position: inherit;
-  }
-
-  .homepage .main, .homepage .main, .homepage .container, .homepage .hero {
-    height: auto;
   }
 
   .what-we-do {

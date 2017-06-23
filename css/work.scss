@@ -230,3 +230,77 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .work-page {
+    .project {
+      &.caring-adult {
+        img {
+          width: 550px;
+        }
+      }
+
+      &.mycare {
+        .project-image img {
+          bottom: 0;
+          top: -35px;
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 980px) {
+  .work-page {
+    .project {
+      &.caring-adult {
+        &:hover {
+          .project-image img {
+            width: 565px;
+          }
+        }
+      }
+
+      &.mycare {
+        .project-image img {
+          bottom: 0;
+          top: -35px;
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .work-page {
+    .project {
+      .project-name {
+        font-size: 16px;
+      }
+
+      &.ryan {
+        .project-image img {
+          bottom: 0;
+        }
+      }
+
+      &.tx-beard {
+        background-size: inherit;
+        height: 450px;
+
+        img {
+          top: -40px;
+        }
+      }
+
+      &.strange {
+        img {
+          top: -30px;
+        }
+      }
+    }
+  }
+}

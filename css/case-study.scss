@@ -423,3 +423,191 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .case-study-page {
+    .case-study {
+      & > div:first-of-type {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 30px;
+      }
+    }
+
+    &.morgan-page {
+      header {
+        .hire, nav a {
+          color: #131b26;
+        }
+      }
+
+      .case-study {
+        padding-top: 0;
+
+        h1 {
+          margin-top: 0;
+        }
+
+        & > div {
+          &:first-of-type {
+            padding: 65px 5px;
+            overflow: hidden;
+
+            & > img {
+              min-width: 140%;
+              margin-top: 45px;
+              margin-left: -20%;
+            }
+          }
+
+          &:nth-of-type(2) > img {
+            width: 100%;
+            float: none;
+            padding: 3%;
+          }
+        }
+
+        & > img {
+          bottom: -60px;
+        }
+      }
+    }
+
+    &.ryan-page {
+      .case-study {
+        padding-top: 0;
+
+        h1 {
+          margin-top: 0;
+        }
+
+        & > div {
+          &:first-of-type {
+            padding: 65px 5px;
+            overflow: hidden;
+
+            & > img {
+              min-width: 140%;
+              margin-top: 45px;
+              margin-left: -20%;
+            }
+          }
+
+          &:nth-of-type(2) > img {
+            width: 100%;
+            float: none;
+            padding: 3%;
+          }
+        }
+
+        & > img {
+          bottom: -50px;
+        }
+      }
+
+      .ryan-dark, .ryan-site {
+        padding: 50px 20px;
+      }
+
+      .ryan-site img:nth-of-type(2) {
+        margin-top: 20px;
+      }
+
+      .ryan-tattoo {
+        overflow: hidden;
+      }
+
+      .ryan-tattoo img {
+        max-width: 200%;
+        position: relative;
+        left: -50%;
+      }
+    }
+
+    &.tx-beard-page {
+      .case-study {
+        background-size: 220%;
+
+        & > img {
+          bottom: -20px;
+        }
+
+        & > .tx-beard-site {
+          div:nth-of-type(1), div:nth-of-type(2) {
+            float: none;
+            width: 100%;
+            max-width: 100%;
+            padding: 3%;
+          }
+        }
+      }
+
+      .tx-beard-prod img {
+        width: 50%;
+      }
+
+      .tx-beard-tame img {
+        width: 100%;
+        float: none;
+      }
+
+      .tx-beard-site img {
+        margin-bottom: 15px;
+      }
+    }
+
+    &.strange-page {
+      .case-study {
+        & > div:first-of-type img {
+          padding-top: 0;
+        }
+      }
+    }
+
+    &.one-caring-page {
+      .case-study {
+        & > img {
+          padding-top: 50px;
+        }
+
+        & > div.one-caring-site {
+          div:nth-of-type(1), div:nth-of-type(2) {
+            float: none;
+            width: 100%;
+            padding-left: 6%;
+            padding-right: 6%;
+          }
+
+          div:nth-of-type(1) {
+            padding-left: 6%;
+            padding-right: 6%;
+            padding-top: 30px;
+          }
+        }
+      }
+    }
+
+    &.mycare-page {
+      .mycare-bottom {
+        & > div > img {
+          width: 100%;
+          padding: 6% 6% 0 6%;
+          float: none;
+          margin: 0;
+        }
+      }
+    }
+
+    &.morgan-page {
+      .case-study {
+        .morgan-bottom {
+          div {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+

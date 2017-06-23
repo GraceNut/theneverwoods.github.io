@@ -98,3 +98,31 @@ body {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    height: 150px !important;
+    background: #0a090c;
+
+    .logo {
+      width: 100%;
+    }
+
+    nav {
+      width: 100%;
+      top: 85px;
+
+      ul {
+        li {
+          a {
+            color: #fff !important;
+          }
+        }
+      }
+    }
+
+    .hire {
+      display: none;
+    }
+  }
+}
