@@ -1,0 +1,264 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.sparkpay {
+  .main {
+    padding-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+
+    & > a {
+      color:#000;
+      background: #FFC100;
+      padding:10px 24px;
+      display: inline-block;
+      margin-bottom:75px;
+
+      &:hover {
+        background: #eaa700;
+      }
+    }
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  hr {
+    width: 300px;
+    border-color: #FBBA08;
+    border-top-width: 2px;
+    padding: 0;
+    margin: 30px auto 60px;
+  }
+
+  .cards-wrapper {
+    padding: 0 15px;
+    max-width: 1150px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .card {
+      width: calc(100% / 3);
+      float: left;
+      padding: 0 15px;
+
+      .card-inner {
+        background: white;
+        padding: 30px 30px 76px;
+        box-shadow: 0 0px 50px rgba(0,0,0,0.04), 1px 2px 8px rgba(0,0,0,0.05);
+        position: relative;
+        min-height: 516px;
+        cursor: pointer;
+        overflow: hidden;
+
+        .card-flag {
+          position: absolute;
+          top: 20px;
+          left: -35px;
+          background: black;
+          color: #FFC100;
+          display: block;
+          padding: 5px 45px;
+          transform: rotate(-45deg);
+        }
+
+        .card-title h2 {
+          font-size: 20px
+        }
+
+        .card-desc p {
+          color: #777;
+          font-size: 14px;
+        }
+
+        .card-bullets {
+          margin: 30px 0 30px;
+
+          ul li {
+            list-style-type: none;
+            font-size: 14px;
+            font-weight: bold;
+          }
+        }
+
+        .card-footer {
+          background: black;
+          color: #FFC100;
+          padding: 13px 30px 17px;
+          line-height: 46px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 76px;
+
+          p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.7;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+
+  .testimonials-wrapper {
+    margin: 70px auto;
+    max-width: 880px;
+    position: relative;
+    font-size:20px;
+    margin-bottom:20px;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 225%;
+      width: 200vw;
+      max-width: 3200px;
+      background: #FBBA08;
+      z-index: 0;
+      left: -50vw;
+      top: -15%;
+      transform: rotate(14deg);
+    }
+
+    .testimonial {
+      padding: 30px 15px;
+      position: relative;
+      z-index: 1;
+
+      img {
+        width: 170px;
+      }
+
+      p + p {
+        margin-top: 30px;
+        font-weight: bold;
+
+        a {
+          color: white;
+        }
+      }
+
+      &.left {
+        img {
+          float: left;
+          margin-right: 30px;
+        }
+
+        p {
+          text-align: left;
+          margin-top:5px;
+        }
+      }
+
+      &.right {
+        img {
+          float: right;
+          margin-left: 30px;
+        }
+
+        p {
+          text-align: left;
+        }
+
+        p + p {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .page-sub-p {
+    margin: 15px auto 30px auto;
+  }
+}
+
+
+@media (max-width: 980px) {
+  .sparkpay {
+    .cards-wrapper {
+      .card {
+        .card-inner {
+          padding-bottom: 90px;
+          min-height: 553px;
+
+          .card-footer {
+            height: 90px;
+            line-height: 60px;
+          }
+        }
+      }
+    }
+
+    .testimonials-wrapper {
+      &:before {
+        height: 165%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sparkpay {
+    .main {
+      padding-top: 50px;
+    }
+
+    .cards-wrapper {
+      .card {
+        width: 100%;
+        margin-bottom: 30px;
+
+        .card-inner {
+          min-height: 0;
+          padding-bottom: 76px;
+
+          .card-footer {
+            line-height: 46px;
+            height: 76px;
+          }
+        }
+      }
+    }
+
+    .testimonials-wrapper {
+      &:before {
+        height: 130%;
+      }
+
+      .testimonial {
+        &.right img, &.left img {
+          float: none;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .sparkpay {
+    h1 {
+      margin: 0;
+      padding: 0 15px;
+    }
+
+    .page-sub-p {
+      padding: 0 15px;
+    }
+  }
+}
