@@ -111,15 +111,15 @@
   }
 
   .testimonials-wrapper {
-    max-width: 1200px;
-    margin: 100px auto 30px;
+    max-width: 1050px;
+    margin: 75px auto 30px;
 
     .testimonial {
       width: calc(100% - 200px);
       background: white;
       color: black;
       text-align: left;
-      margin: 45px 0;
+      margin: 75px 0;
 
       &:after {
         content: '';
@@ -177,7 +177,7 @@
   }
 
   .highlighted-work {
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 100px auto 30px;
     padding: 0 15px;
     position: relative;
@@ -191,7 +191,7 @@
   }
 
   .btn.btn-ghost {
-    border: 1px solid currentColor;
+    border: 2px solid currentColor;
     border-radius: 2px;
     font-size: 18px;
     color: black;
