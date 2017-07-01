@@ -12,7 +12,7 @@
   margin: 15px auto 30px auto;
 }
 
-.contact-page .main, .thanks-page .main, .info-page .main, .expect-page .main, .project-form-page .main, .sparkpay .main {
+.contact-page .main, .thanks-page .main, .info-page .main, .expect-page .main, .project-form-page .main, .sparkpay .main, .shopify .main {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -282,7 +282,7 @@ body.thanks-page h1 {
   padding:30px 5px;
 }
 
-.testimonials-wrapper {
+.sparkpay .testimonials-wrapper {
   margin: 70px auto;
   max-width: 880px;
   position: relative;
@@ -290,49 +290,49 @@ body.thanks-page h1 {
   margin-bottom:20px;
 }
 
-.testimonials-wrapper .testimonial {
+.sparkpay .testimonials-wrapper .testimonial {
   padding: 30px 15px;
   position: relative;
   z-index: 1;
 }
 
-.testimonials-wrapper .testimonial img {
+.sparkpay .testimonials-wrapper .testimonial img {
   width: 170px;
 }
 
-.testimonials-wrapper .testimonial.left img {
+.sparkpay .testimonials-wrapper .testimonial.left img {
   float: left;
   margin-right: 30px;
 }
 
-.testimonials-wrapper .testimonial.right img {
+.sparkpay .testimonials-wrapper .testimonial.right img {
   float: right;
   margin-left: 30px;
 }
 
-.testimonials-wrapper .testimonial p + p {
+.sparkpay .testimonials-wrapper .testimonial p + p {
   margin-top: 30px;
   font-weight: bold;
 }
 
-.testimonials-wrapper .testimonial p + p a {
+.sparkpay .testimonials-wrapper .testimonial p + p a {
   color: white;
 }
 
-.testimonials-wrapper .testimonial.left p {
+.sparkpay .testimonials-wrapper .testimonial.left p {
   text-align: left;
   margin-top:5px;
 }
 
-.testimonials-wrapper .testimonial.right p {
+.sparkpay .testimonials-wrapper .testimonial.right p {
   text-align: left;
 }
 
-.testimonials-wrapper .testimonial.right p + p {
+.sparkpay .testimonials-wrapper .testimonial.right p + p {
   text-align: left;
 }
 
-.testimonials-wrapper:before {
+.sparkpay .testimonials-wrapper:before {
   content: '';
   display: block;
   position: absolute;
@@ -559,7 +559,7 @@ body.sparkpay .main > a:hover {
     text-align: center;
     margin-top: 15px;
 }
-.testimonials-wrapper:before {
+.sparkpay .testimonials-wrapper:before {
     height: 165%;
 }
 }
@@ -572,12 +572,12 @@ body.sparkpay .main > a:hover {
     float: none;
   }
 
-  .testimonials-wrapper .testimonial.right img, .testimonials-wrapper .testimonial.left img {
+  .sparkpay .testimonials-wrapper .testimonial.right img, .sparkpay .testimonials-wrapper .testimonial.left img {
     float: none;
     margin:0;
   }
 
-  .testimonials-wrapper:before {
+  .sparkpay .testimonials-wrapper:before {
     height: 130%;
 }
 

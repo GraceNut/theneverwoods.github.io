@@ -1,0 +1,171 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.shopify {
+  .container {
+    background-image: url('/img/shopify-header.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    text-align: left;
+    padding: 10vh 15px 0;
+    max-width: 900px;
+    margin: auto;
+
+    h1 {
+      font-size: 44px;
+      color: white;
+      font-weight: bold;
+      margin: 0;
+
+      em {
+        font-style: normal;
+        color: #fbbd1d;
+      }
+    }
+
+    .btn.btn-primary {
+      font-size:  18px;
+      color:  black;
+      background: #ffc100;
+      font-weight: bold;
+      padding: 12px 25px;
+      display: inline-block;
+      margin-top: 15px;
+    }
+  }
+
+  .cards-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 10vh;
+
+    &:after {
+      display: block;
+      content: '';
+      clear: both;
+    }
+
+    .card {
+      width: calc(100% / 3);
+      float: left;
+      padding: 0 15px;     
+      
+      .card-inner {
+        background: #f7f7f7;
+        box-shadow: 0 0px 50px rgba(0,0,0,0.04), 1px 2px 8px rgba(0,0,0,0.05);
+
+        .card-header {
+          padding: 30px;
+
+          .card-title {
+            font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            padding-bottom: 15px;
+
+            &:after {
+              content: '';
+              display: block;
+              position: absolute;
+              height: 3px;
+              width: 50px;
+              background: #fbbd1d;
+              left: 0;
+              right: 0;
+              margin: auto;
+              bottom:0;
+            }
+          }
+        }
+
+        .card-body {
+          height: 200px;
+
+          ul {
+            li {
+              text-align: left;
+              list-style-type: disc;
+              font-weight: 600;
+              color: #fbbd1d;
+              margin-left: 15%;
+              font-size: 16px;       
+
+              span {
+                color: #373638;
+              }       
+            }
+          }
+        }
+      } 
+    }
+  }
+
+  .testimonials-wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+
+    .testimonial {
+      width: calc(100% - 200px);
+      background: white;
+      color: black;
+      text-align: left;
+      margin: 45px 0;
+
+      &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      img {
+        width:170px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      p:first-of-type {
+        padding-top: 45px;
+
+        & + p {
+          font-weight:  bold;
+        }
+      }
+
+      a {
+        color: #ffc100;
+      }
+
+      &.left {
+        margin-left: 185px;
+
+        img {
+          float: left;
+          margin-left: -85px;
+        }
+
+        p {
+          padding-left: 130px;
+          padding-right: 50px;
+        }
+      }
+
+      &.right {
+        margin-right: 185px;
+
+        img {
+          float: right;
+          margin-right: -85px;
+        }
+
+        p {
+          padding-right: 130px;
+          padding-left: 50px;
+        }
+      }
+    }
+  }
+}
