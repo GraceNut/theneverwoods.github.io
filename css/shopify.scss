@@ -3,6 +3,10 @@
 ---
 
 .shopify {
+  .main {
+    padding-bottom: 30px;
+  }
+
   .container {
     background-image: url('/img/shopify-header.png');
     background-size: 100% auto;
@@ -92,7 +96,8 @@
               font-weight: 600;
               color: #fbbd1d;
               margin-left: 15%;
-              font-size: 16px;       
+              font-size: 16px;   
+              padding-right: 15px;    
 
               span {
                 color: #373638;
@@ -106,7 +111,7 @@
 
   .testimonials-wrapper {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 100px auto 30px;
 
     .testimonial {
       width: calc(100% - 200px);
@@ -155,6 +160,7 @@
 
       &.right {
         margin-right: 185px;
+        margin-left: 15px;
 
         img {
           float: right;
@@ -166,6 +172,133 @@
           padding-left: 50px;
         }
       }
+    }
+  }
+
+  .highlighted-work {
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .btn.btn-ghost {
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font-size: 18px;
+    color: black;
+    padding: 12px 25px;
+    display: inline-block;
+    margin-top: 15px;
+
+    span, svg {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .shopify {
+    .container {
+      background-size: auto 1000px;
+      background-position: top center;
+    }
+  }
+}
+
+@media (max-width: 830px) {
+  .shopify {
+    .testimonials-wrapper {
+      .testimonial {
+        p:first-of-type {
+          padding-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .shopify {
+    header {
+      background: white;
+
+      nav ul li a {
+        color: #0a090c !important;
+      }
+    }
+
+    .main {
+      padding-top: 30px;
+    }
+
+    .hero {
+      padding-top: 50px;
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .btn.btn-primary {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+
+    .cards-wrapper {
+      .card {
+        width: 100%;
+        clear: both;
+        margin-bottom: 15px;
+
+        .card-inner {
+          .card-header {
+            padding: 20px 15px;
+          }
+
+          .card-body {
+            height: auto;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+
+    .container {
+      background-size: auto 1000px;
+      background-position: top center;
+    }
+
+    .testimonials-wrapper {
+      margin: 30px auto;
+
+      .testimonial {
+        width: calc(100% - 30px);
+        margin: 100px 15px !important;
+        padding-top: 100px;
+        padding-bottom: 30px;
+
+        p:first-of-type {
+          padding-top: 30px;
+        }
+
+        img {
+          float: none !important;
+          margin: -170px auto 0 !important;
+          display: block;
+        }
+
+        p {
+          padding: 0 15px !important;
+          max-width: 600px !important;
+          margin: 15px auto;
+        }
+      }
+    }
+
+    .btn.btn-ghost {
+      font-size: 16px;
+      padding: 10px 20px;
     }
   }
 }
