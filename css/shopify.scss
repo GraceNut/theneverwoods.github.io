@@ -177,8 +177,17 @@
   }
 
   .highlighted-work {
-    margin-top: 100px;
-    margin-bottom: 30px;
+    max-width: 1200px;
+    margin: 100px auto 30px;
+    padding: 0 15px;
+    position: relative;
+
+    .text {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      width: 35%;
+    }
   }
 
   .btn.btn-ghost {
@@ -193,6 +202,11 @@
     span, svg {
       display: inline-block;
       vertical-align: middle;
+    }
+
+    svg {
+      margin-bottom: 3px;
+      margin-left: 5px;
     }
   }
 }
@@ -268,6 +282,16 @@
     .container {
       background-size: auto 1000px;
       background-position: top center;
+    }
+
+    .highlighted-work {
+      margin-top: 30px;
+      margin-bottom: 15px;
+
+      .text {
+        top: 5px;
+        right: 15px;
+      }
     }
 
     .testimonials-wrapper {
